@@ -1,0 +1,98 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) { /*PORTRAIT PHONES */
+   
+    .contact_container .contact_content{width:100%;padding-right:0;padding-left:0;}  
+    .contact_container .contact_area{width:100%;margin-bottom:50px;padding-left:0;padding-right:0;padding-top:50px;margin-top:0;}
+    .contact_container .contact_area::after{width:15px;background-position:top left;top:70px;}
+    .w161_start_info_container{flex-direction:row;flex-wrap:wrap;}
+    .w161_start_info_container .w161_photography{order:1;width:50%}
+    .w161_start_info_container .w161_text{order:2;width:100%}
+    .b_contact{display:none;}
+          
+    .entrance_w161static_container {position: relative;display:flex;width: 100%;background-color: #e3e4e5;flex-direction:column;}     
+    .entrance_w161static_container .fullphoto_rwd{position:relative;float:left;width:100%;order:1;}
+    .entrance_w161static_container .logo_rwd{position:relative;margin:0 auto;;width:50%;order:2;padding-top:50px;right:0 !important;top:0 !important;transform:translateY(0%)}    
+    .w161_hexes_icon_container{display:flex;flex-direction: column;justify-content: center;padding-top:30px;padding-bottom:30px;}
+    .w161_hexes_icon_container span{width:100%;display:flex;justify-content: center;margin-bottom:40px;}
+    
+    .w161_article_hexes_icon_container span div{font-size:1.5rem;}
+    
+    
+}
+@media only screen and (min-width : 481px) and (max-width : 950px) {
+    .w161_article_hexes_icon_container span div{font-size:1.5rem;}
+    .contact_container .contact_content{position:relative;float:right;width:65%;padding-left: var(--padding-left);padding-right: 0px}
+    .contact_container .contact_area{position:relative;float:left;width:35%;padding-left:40px;margin-top:10%;}    
+    .contact_container .contact_area div:not(.title_contact){font-size:1.4rem;}
+    
+    
+    
+    .w161_start_info_container{flex-direction:row;flex-wrap:wrap;}
+    .w161_start_info_container .w161_photography{order:1;width:50%}
+    .w161_start_info_container .w161_text{order:2;width:100%}
+    
+    
+    .entrance_w161static_container {position: relative;display:flex;width: 100%;background-color: #e3e4e5;padding-top: 50px;flex-direction:column;}     
+    .entrance_w161static_container .fullphoto_rwd{position:relative;float:left;width:100%;order:1;}
+    .entrance_w161static_container .logo_rwd{position:relative;margin:0 auto;;width:30%;order:2;padding-top:50px;top:auto;transform:none;right:auto;}        
+    
+    .w161_hexes_icon_container{position:relative;float:left;width:100%;display:flex;display: flex;flex-direction: row;justify-content: center;padding-top:0px;padding-bottom:30px;}
+    .w161_hexes_icon_container span{width:33.333%;display:flex;justify-content: center;padding:5%;}    
+    
+}
+@media only screen and (min-width : 951px) and (max-width : 1224px) { /* IPAD PORTRAIT */
+   
+
+}
+
+@media only screen  and (min-width : 1224px),only screen  and (min-width : 1824px)  {
+}
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+    .entrance_w161static_container {position: relative;display:flex;width: 100%;background-color: #e3e4e5;padding-top: 0px;flex-direction:column;}     
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */ 
+    .entrance_w161static_container {position: relative;display:flex;width: 100%;background-color: #e3e4e5;padding-top: 0px;flex-direction:column;}     
+
+}
+
+/*********************************************/
+
+@media 
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+
+@media 
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+

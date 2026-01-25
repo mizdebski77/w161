@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2015-10-11, 20:34:00
+    Author     : solenzo
+*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) { /*PORTRAIT PHONES */
+#external_container{margin-top:50px}
+#article_item{margin-top:70px;padding-left:var(--portrait-article-padding-left);padding-right:var(--portrait-article-padding-right);border:0px solid red;}    
+.flex_row .flow_content{flex-basis:100%;}
+.flex_row .fly_content{flex-basis:100%;}
+.article_container .text{padding-left:0}
+.article_flex_container section.flex_row{flex-direction:column;}
+.article_flex_container section.flex_row div{padding-left:0;}
+
+.fly_content .content_absolute{position:relative;float:left;min-height:0;margin-top:50px;top:auto;left:auto;right:auto;bottom:auto;height: auto !important;margin-bottom:20px;}
+.music_gallery{margin-left:0;padding-right:0;}
+.gallery_next_gen .gallery_first{padding-left:0;}
+.gallery_next_gen .gallery_next_gen_element img{height:200px;}
+.gallery_next_gen .extended_prev, .gallery_next_gen .extended_next{display:none !important;}
+.article_container .title{font-size:2.5rem}
+.article_files .title {font-size:2rem}
+.article_container .text{text-align: left}
+.article_container .text *{text-align: left !important}
+.gallery_next_gen .photo_description{padding-left:0;}
+.boxes_product_title{font-size:2.5rem}
+.connected_products_container{margin-top:0 !important;padding-top:80px !important}
+.arrow_container{position:relative;float:left;width:100%;padding-left:var(--padding-left);padding-right:var(--padding-right)}
+}
+@media only screen and (min-width : 481px) and (max-width : 950px) {
+.arrow_container{position:relative;float:left;width:100%;padding-left:15px;padding-right:15px;}    
+#external_container{margin-top:50px}
+#article_item{margin-top:70px;padding-left:var(--portrait-article-padding-left);padding-right:var(--portrait-article-padding-right);border:0px solid red;}    
+.flex_row .flow_content{/*flex-basis:60%*/;width:60%;word-wrap:break-word;}
+.flex_row .fly_content{flex-basis:40%;}
+.gallery_next_gen.fullscreen .extended_next{display:none}
+.gallery_next_gen.fullscreen .extended_prev{display:none}
+.article_container .title{font-size:2.5rem}
+.article_files .title {font-size:2rem}
+
+.article_container .text{text-align: left}
+.article_container .text *{text-align: left !important}
+.connected_products_container{margin-top:0 !important;padding-top:80px !important}
+}
+@media only screen and (min-width : 951px) and (max-width : 1224px) { /* IPAD PORTRAIT */
+/* Styles */
+#article_item{padding-left:var(--article-padding-left);padding-right:var(--article-padding-right);}    
+.flex_row .flow_content{flex-basis:65%;}
+.flex_row .fly_content{flex-basis:35%;}
+.article_container .title{font-size:4rem}
+.article_files .title{font-size:1.8rem}
+#article_item{margin-top:0;}
+.article_container .text *{text-align: left !important}
+.boxes_product_title{font-size:3.5rem}
+.myskos{position:absolute;top:0;left:0;width:100%;;border-width:0 100vw 100px 0;width: 0;height: 0;border-color: transparent white transparent transparent;border-style: solid;}
+.arrow_container{position:relative;float:left;width:100%;padding-left:15px;padding-right:15px;}
+}
+@media only screen  and (min-width : 1224px),only screen  and (min-width : 1824px)  {
+    /* Styles */
+#article_item{padding-left:var(--article-padding-left);padding-right:var(--article-padding-right);}    
+.flex_row .flow_content{flex-basis:65%;}
+.flex_row .fly_content{flex-basis:35%;}
+.article_container .title{font-size:4rem}
+.article_files .title{font-size:1.8rem}
+#article_item{margin-top:0;}
+.article_container .text *{text-align: left !important}
+.boxes_product_title{font-size:3.5rem}
+.myskos{position:absolute;top:0;left:0;width:100%;;border-width:0 100vw 100px 0;width: 0;height: 0;border-color: transparent white transparent transparent;border-style: solid;}
+.arrow_container{position:relative;float:left;width:100%;padding-left:15px;padding-right:15px;}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (orientation : landscape){
+    /* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+    
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    /* Styles */
+}
+
+@media only screen and (min-width: 1194px) and (orientation: landscape) { 
+#article_item{padding-left:var(--portrait-article-padding-left);padding-right:var(--portrait-article-padding-right);}    
+.flex_row .flow_content{flex-basis:60%;}
+.flex_row .fly_content{flex-basis:40%;}
+
+}
+
+/* Portrait*/
+@media only screen and (min-width: 834px) and (orientation: portrait) { /* Your Styles... */ 
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #product_item{padding-bottom:40px;}
+    .content_arrow_back{display:none !important;}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+  .article_container .title {font-size:4rem}
+  .article_files .title{font-size:2rem}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+.article_container .title {font-size:4rem}
+.article_files .title{font-size:2rem}
+
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+#article_item{padding-left:var(--article-padding-left);padding-right:var(--article-padding-right);}    
+.flex_row .flow_content{flex-basis:65%;}
+.flex_row .fly_content{flex-basis:35%;}
+.article_container .title{font-size:4rem}
+.article_files .title{font-size:1.8rem}
+#article_item{margin-top:0;}
+.article_container .text *{text-align: left !important}
+.boxes_product_title{font-size:3.5rem}
+.myskos{position:absolute;top:0;left:0;width:100%;;border-width:0 100vw 100px 0;width: 0;height: 0;border-color: transparent white transparent transparent;border-style: solid;}
+.arrow_container{position:relative;float:left;width:100%;padding-left:15px;padding-right:15px;}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+#article_item{padding-left:var(--article-padding-left);padding-right:var(--article-padding-right);}    
+.flex_row .flow_content{flex-basis:65%;}
+.flex_row .fly_content{flex-basis:35%;}
+.article_container .title{font-size:4rem}
+.article_files .title{font-size:1.8rem}
+#article_item{margin-top:0;}
+.article_container .text *{text-align: left !important}
+.boxes_product_title{font-size:3.5rem}
+.myskos{position:absolute;top:0;left:0;width:100%;;border-width:0 100vw 100px 0;width: 0;height: 0;border-color: transparent white transparent transparent;border-style: solid;}
+.arrow_container{position:relative;float:left;width:100%;padding-left:15px;padding-right:15px;}
+
+}

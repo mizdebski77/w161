@@ -1,0 +1,70 @@
+:root{
+      --special_top:500px;
+      --main-menu-bg-color:#e3e4e5;
+      --main-bg-color : #e3e4e5;
+      --main-bg-color2 : #464c56;
+      --main-font-color : #464c56;
+      --main-font-color2 : #e3e4e5;
+      --main-font-color3 : #314863;
+      
+      --main-font-color-hover1: #ff522d;
+      
+      --main-border-color: #788f4c;
+      --main-border-color2: #e3e4e5;
+      
+      --contact-bg-color: transparent;
+      --contact-font-color: white;
+      --contact-border-color: white;
+      --padding-title-line:15px;
+      
+      --bip-bg-color:rgb(51,51,51);
+      --title-size:2rem;
+      --font-family:"archiaregular",sans-serif;  
+      --main-loader-color: #464c56;
+      --date-font-color: #666666;
+      font-size:62.5%;
+      --padding-left:30px;
+      --padding-right:30px;
+      --portrait-padding-left:20px;
+      --portrait-padding-right:20px;      
+      --padding-left-vw:20vw;
+      --padding-right-vw:20vw;
+      --article-padding-left:180px;
+      --article-padding-right:20px;
+      
+      --color-red:#ec3e47;
+      --color-blue:#3b4bd1;
+      --color-brown:#878568;
+      --banner-box-width:80px;
+      --banner-box-height:80px;
+      --banner-box-height2x:160px;
+      --banner-box-height3x:240px;
+      --banner-box-height4x:320px;
+      
+      --border-size : 25px;
+      
+      
+      --portrait-article-padding-left:20px;
+      --portrait-article-padding-right:20px;
+      
+      /*FOODIE COLORS*/
+      --foodie-brown:#464C56;
+      --foodie-brown2:#232323;
+      
+      --foodie-light-blue:#00afb2;
+      --foodie-blue:#80d7d8;
+      --foodie-blue2:#4cc7c9;
+      --foodie-blue3:#26bbbe;
+      --foodie-orange:#ff522d;
+      --foodie-orange2:#ff8970;
+      --foodie-grey:#c9c9c9;
+      --foodie-grey2:#969696;
+      --foodie-gradient-grey:linear-gradient(to right,#4f4f4f , #232323);
+      --foodie-gradient-orange:linear-gradient(to right,#ff8970,#ff6342);
+      --foodie-background:#f5f5f5;
+      
+      --foodie-harmonogram-white:#f5f5f5;
+}
+body a{color:#ff522d
+}
+body a:focus{border:0 !important;outline:0 !important;}

@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-06-07, 10:29:18
+    Author     : solenzo
+*/
+
+.boxes_periods_container .boxes_periods_title{position:relative;float:left;width:100%;font-size:40px; ;margin-bottom:30px;padding-bottom:10px;}
+.boxes_periods_container .boxes_periods_title .period_title_one{color:black;line-height:1.1;font-weight:300;}
+.boxes_periods_container .boxes_periods_title .period_title_two{color:#00a4c4;line-height:1.1;font-weight:300;}
+
+.boxes_periods_container .boxes_periods_title .period_title_one .element{position:relative;float:left;width:auto;display:inline;transition:0.5s all ease;border:10px solid #e3dad3;margin-right:20px;padding:0px 10px;font-weight:800;}
+
+.boxes_periods_container .boxes_periods_title .period_title_one .element:after{content:'';position:absolute;top:-10px;right:10%;left:10%;height:10px;}
+.boxes_periods_container .boxes_periods_title .period_title_one .element:before{content:'';position:absolute;bottom:-10px;left:10%;right:10%;height:10px;}
+
+.boxes_periods_container .boxes_periods_title .period_title_one .element.active{border-color:#ffa836}
+.boxes_periods_container .boxes_periods_title .period_title_one .element:hover{border-color:#ffa836;cursor:pointer;transition:0.5s all ease;}
+
+
+.boxes_periods_container .subtitle{position:relative;float:left;width:100%;color:#EAE4DC;text-align:center;font-size:25px;margin-bottom:50px;}
+.boxes_periods_container .subtitle span{position:relative;width:auto;padding-left:0px;padding-right:0px;display:inline;font-weight:300;transition:all 0.5s ease;text-transform: capitalize}
+.boxes_periods_container .subtitle span:hover{cursor:pointer;font-weight:700;transition:all 0.5s ease;}
+
+/********/
+.box_content{}
+.boxes_periods .box_content {;transition:0.5s all ease}
+
+.image_end img{position:relative;float:left;width:100%;}
+.boxes_periods_container .box_content .more{position:relative;text-align:center;margin:0 auto;margin-top:20px;font-weight:900;letter-spacing:2px;font-size:12px;}
+.boxes_periods_container .box_content .more:hover{cursor:pointer;}
+.boxes_periods_container .more span{border-top:0px solid #4a4037;padding-top:5px;color:#4a4037;}
+
+.boxes_periods .box_placing .box_photo{position:relative;float:left;width:100%;}
+
+.filter_aktualnosci:hover{cursor:pointer;}
+
+
+.article_boxes .box_placing{padding:0 !important;}
+#fragment_container{padding-top:0px !important;}
+.fragment_title{font-family:"museo-sans";font-weight:300;font-size:24px;padding-bottom:5px;border-bottom:1px solid #343156;color:#343156;text-align:center;}
+#boxes_fragment{border:0px solid black;padding:20px !important;padding-bottom:40px !important;margin:0 !important;width:100%;}
+#boxes_fragment:after{content:'';position:absolute;z-index:5;bottom:20px;left:15px;width:calc(100% - 30px);height:1px;background-color:#fa6a87;}
+#boxes_fragment .fragment_prev{position:absolute;left:15px;z-index:1;bottom:0px;background:url('../../../img/main/boxes/arrow_left.svg');background-size:100%;background-repeat:no-repeat;background-position:left center;width:10px;height:15px;}
+#boxes_fragment .fragment_next{position:absolute;right:15px;z-index:1;bottom:0px;background:url('../../../img/main/boxes/arrow_right.svg');background-size:100%;background-repeat:no-repeat;background-position:right center;width:10px;height:15px;}
+
+
+.period_prev{position:absolute;right:0px;z-index:1;top:50px;background:url('../../../img/main/boxes/arrow_period_left.svg.html');background-size:contain;background-repeat:no-repeat;background-position:top right;width:30px;height:30px;}
+.period_next{position:absolute;right:0px;z-index:1;top:100px;background:url('../../../img/main/boxes/arrow_period_right.svg.html');background-size:contain;background-repeat:no-repeat;background-position:top right;width:30px;height:30px;}
+
+
+/*END OF FILTER MENU*/
+.search_periods{position:relative;float:right;width:auto;}
+.button_search_period{position:relative;float:right;}
+.button_search_period input{position:relative;border-radius:0;float:right;width:70%;margin:0 auto;outline:0;border:0;border-bottom:1px solid black;padding:0px 25px;font-size:15px;color:black;background-image:url('../../../img/lupka.svg');background-repeat:no-repeat;background-size:18px;background-position:0px center;}
+.button_search_period input:before{content:'';position:absolute;top:0;;left:0;}
+
+.boxes_periods_container .box_content:hover .box_photo img{cursor:pointer;transform: scale(1.2);transition: 0.5s all ease;}

@@ -1,0 +1,33 @@
+.boxes_banners_container{position:relative;float:left;width:100%;;font-family:var(--font-family);padding-top:100px;margin-top:0px;padding-bottom:0px;background-color:var(--foodie-background);z-index:1;padding-left:130px;padding-right:130px;}
+
+.boxes_banners{height:auto;border:0px solid red;}
+
+
+.boxes_banners .box_banner div.content {height:350px;position:relative;float:left;width:100%;padding-left:40px;padding-right:40px;flex-wrap:wrap;border:0px solid red;display:flex;;width:100%;box-sizing:border-box;align-content:center;justify-content:center;}
+.boxes_banners .box_banner div.content .banner_title {position:relative;flex:100%;font-weight:700;font-size:3rem;padding-bottom:20px;color:white;line-height:1.1;}
+.boxes_banners .box_banner div.content .banner_category {font-size:1.0rem;font-weight:700;text-transform:uppercase;color:white}
+
+.boxes_banners .box_banner div.content span.banner_text {position:relative;font-size:calc(100%);flex:100%;color:white;font-size:1.5rem;}
+/*
+.boxes_banners .box_banner:after {content:'';position:absolute;bottom:-2px;left:50%;right:10%;height:2px;background-color:#f90052;transition:all 0.5s ease;}
+.boxes_banners .box_banner:hover:after {content:'';position:absolute;bottom:-2px;left:90%;right:0%;height:2px;background-color:#f90052;transition:all 0.5s ease;}
+*/
+.boxes_banners a {color:white;}
+
+.boxes_banners a:hover {text-decoration:none;color:white;}
+
+.boxes_banners .box_banner .banner_date{position:relative;float:left;width:100%;font-size:14px;color:#1e1e1e;;margin-bottom:10px}
+.boxes_banners .box_banner .link {position:relative;float:left;width:100%;margin-top:30px;}
+.boxes_banners .box_banner .link a{position:relative;color:#1e1e1e;padding-bottom:0px;text-align:center;margin-top:0px;font-weight:900;letter-spacing:2px;font-size:12px;}
+.boxes_banners .box_banner .link a img{position:relative;float:left;height:0.7rem;}
+.boxes_banners .box_banner .link a:hover {cursor:pointer}
+.boxes_banners .box_banner .banner_content{position:relative;float:left;width:100%;display:flex;flex-direction:row;height:350px;}
+.boxes_banners .box_banner .banner_content .banner_photo{position:relative;;box-sizing:border-box;flex-basis:50%;}
+.boxes_banners .box_banner .banner_content .banner_photo img{position:relative;float:right;width:auto;max-width:100%;object-fit:cover;height:350px;}
+.boxes_banners .box_banner .banner_content .information{position:relative;flex-basis:50%;background-color:var(--foodie-brown);}
+
+.boxes_banners .slick-dots{background-color:transparent;position:relative;float:left;bottom:-20px;border-top:0px solid #A7A7A7;}
+.boxes_banners .banner_dot{margin:0;padding:0;position:relative;overflow:auto;width:30%;margin:0 auto;text-align:center;margin-top:0px;}
+.banner_dot li {border:1px solid green;list-style-type:none;position:relative;float:right;padding:5px;}
+.banner_dot li button {background-color:red;color:white;display:inline;}
+

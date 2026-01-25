@@ -1,0 +1,110 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) { /*PORTRAIT PHONES */
+.mieszkania_container section.plany{padding-left:0px;}   
+.mieszkania_container section{width:100%;}    
+.mieszkania_container section.budynki{padding-right:0;}
+.mieszkania_container .information_details .table_data{width:100%}
+.mieszkania_container .information_details .table_data_intro{display:none !important}
+.mieszkania_container .information_details{overflow:auto}
+.mieszkania_container .information_details .table_data span{position:relative;float:left;text-align:right;width:100% !important;border:0px solid blue;margin-bottom:5px;margin-top:5px;}
+.mieszkania_container .information_details .table_data span::before{content:'';position:absolute;top:0;left:0;width:140px;color:#ff522d;text-align:left;}
+.mieszkania_container .information_details .table_data span:nth-child(1)::before{content:'Lokal';}
+.mieszkania_container .information_details .table_data span:nth-child(2)::before{content:'Typ';}
+.mieszkania_container .information_details .table_data span:nth-child(3)::before{content:'Piętro';}
+.mieszkania_container .information_details .table_data span:nth-child(4)::before{content:'Pokoje';}
+
+.mieszkania_container .information_details .table_data span:nth-child(5)::before{content:'Metraż Mieszkania';}
+.mieszkania_container .information_details .table_data span:nth-child(6)::before{content:'Okna';}
+.mieszkania_container .information_details .table_data span:nth-child(7)::before{content:'Dostępność';}
+.mieszkania_container .information_details .table_data span:nth-child(8)::before{content:'Rzut';}
+.mieszkania_container .information_details .table_data span:nth-child(9)::before{content:'Cena';}
+.mieszkania_container .information_details .table_data span:nth-child(10)::before{content:'';}
+
+.mieszkania_container .information_details .table_data span a img{height:20px;}
+.mieszkania_container .information_details .table_data aside{position:relative;float:right;right:auto;width:auto;top:auto;transform:none;}
+
+/*.mieszkania_container .information_details .table_data_intro span{width:80px;border:0px solid red;font-size:10px;text-align:center;}*/
+    
+
+}
+@media only screen and (min-width : 481px) and (max-width : 950px) {
+    .contact_container .contact_content{position:relative;float:right;width:65%;padding-left: var(--padding-left);padding-right: 50px}
+    .contact_container .contact_area{position:relative;float:left;width:35%;padding-left:40px;margin-top:10%;}    
+
+    
+.mieszkania_container .information_details .table_data{width:50%}
+.mieszkania_container .information_details .table_data_intro{display:none !important}
+.mieszkania_container .information_details{overflow:auto}
+.mieszkania_container .information_details .table_data span{position:relative;float:left;text-align:right;width:100% !important;border:0px solid blue;margin-bottom:5px;margin-top:5px;}
+.mieszkania_container .information_details .table_data span::before{content:'';position:absolute;top:0;left:0;width:140px;color:#ff522d;text-align:left;}
+.mieszkania_container .information_details .table_data span:nth-child(1)::before{content:'Lokal';}
+.mieszkania_container .information_details .table_data span:nth-child(2)::before{content:'Typ';}
+.mieszkania_container .information_details .table_data span:nth-child(3)::before{content:'Piętro';}
+.mieszkania_container .information_details .table_data span:nth-child(4)::before{content:'Pokoje';}
+
+.mieszkania_container .information_details .table_data span:nth-child(5)::before{content:'Metraż Mieszkania';}
+.mieszkania_container .information_details .table_data span:nth-child(6)::before{content:'Okna';}
+.mieszkania_container .information_details .table_data span:nth-child(7)::before{content:'Dostępność';}
+.mieszkania_container .information_details .table_data span:nth-child(8)::before{content:'Rzut';}
+.mieszkania_container .information_details .table_data span:nth-child(9)::before{content:'Cena';}
+.mieszkania_container .information_details .table_data span:nth-child(10)::before{content:'';}
+
+.mieszkania_container .information_details .table_data span a img{height:20px;}    
+.mieszkania_container .information_details .table_data aside{position:relative;float:right;right:auto;width:auto;top:auto;transform:none;}
+    
+    
+}
+@media only screen and (min-width : 951px) and (max-width : 1224px) { /* IPAD PORTRAIT */
+   
+
+}
+
+@media only screen  and (min-width : 1224px),only screen  and (min-width : 1824px)  {
+}
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */ 
+
+}
+
+/*********************************************/
+
+@media 
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+
+@media 
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+

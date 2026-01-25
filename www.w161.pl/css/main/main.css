@@ -1,0 +1,41 @@
+
+
+.container_margin{
+    margin-bottom:50px !important;
+}
+
+
+
+#test_rwd{
+    height:1px;
+    width:1px;
+    display:block;
+}
+
+
+
+html, body {
+    height:100% ;
+    border:0px solid red !important;
+    background-color:white;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;    
+}
+
+#menu_trigger {
+    display: none !important;
+  }
+
+  .b_mieszkanie, .arrow_back, .shortcut_choose_mieszkanie, .w161_hexes_icon_container, .product_content_arrow_back, .email_form select {
+    display: none !important;
+  }
+.zero_padding{padding:0;}
+.zero_margin{margin:0;}
+
+.container{
+    padding:0;
+    padding-bottom:0px;
+}
+
+
+

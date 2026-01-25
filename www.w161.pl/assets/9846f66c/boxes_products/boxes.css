@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-01-10, 12:03:01
+    Author     : solenzo
+*/
+
+.boxes_product_container .filter_menu div a{;font-weight:400;font-style:normal;}
+
+.boxes_product_container{position:relative;float:left;width:100%;background-color:var(--main-bg-color2);font-family:var(--font-family);padding-top:0px;padding-bottom:0px;padding-left:var(--padding-left);padding-right:var(--padding-right);}
+.boxes_product_container2{position:relative;float:left;width:100%;box-sizing:border-box;border:0px solid red;background-color:var(--main-bg-color2);font-family:var(--font-family);padding-left:var(--padding-left);padding-right:var(--padding-right);padding-top:30px;padding-bottom:50px;}
+
+
+.boxes_product{position:relative;float:left;width:100%;margin-right:30px;border:0px solid red;padding-top:0px;padding-bottom:30px;padding-right:0px;background-color:transparent;}
+
+.boxes_product:hover{}
+
+.boxes_product .box_placing{position:relative;float:left;margin:0;margin-bottom:40px;padding:0 0;border:0px solid red;overflow:hidden}
+.boxes_product .box_content {position:relative;float:left;transition: all 0.5s ease-out;}
+
+.boxes_product_container .title {position: relative;float: left;width:100%;font-size:4.7rem;font-weight:700;letter-spacing:0px;color:var(--main-font-color2);border-bottom:0px solid var(--main-font-color);font-family:"archiabold";text-align:center;padding-left:0;margin-bottom:30px;}
+.boxes_product_container2 .title {position: relative;float: left;width:100%;font-family: var(--font-family);font-size:3rem;line-height:1.1;letter-spacing:0px;font-weight:700;color:var(--main-font-color);text-transform:lowercase;padding-bottom:20px;margin-bottom:50px;}
+.boxes_product_container2 .title:after{content:'';position:absolute;bottom:0;height:1px;left:0;right:10px;background-color:var(--main-font-color);}
+.boxes_product { }
+
+.boxes_product .box_content {position:relative;float:left;width:100%;;padding-right:60px;padding-left:30px;padding-top:30px;z-index:1;overflow:hidden;}
+.boxes_product .box_content:after {content:'';position:absolute;}
+
+.boxes_product .box_content:hover {cursor:pointer;}
+
+
+.boxes_product .box_content .box_category{position:relative;float:left;padding:0;width:100%;margin-bottom:15px;margin-top:0px;font-size:0.9rem;font-weight:700;letter-spacing:1px;color:var(--main-font-color);letter-spacing:1px;text-transform:uppercase;}
+.boxes_product .box_content .kalendarium_date{position:relative;float:right;width:100%;margin-bottom:0px;font-size:1.6rem;font-weight:900;letter-spacing:1px;color:var(--main-font-color);text-align:left;;margin-bottom:10px;}
+.boxes_product .box_content .box_date{position:relative;float:right;width:auto;margin-bottom:0px;font-size:0.9rem;font-weight:300;color:var(--date-font-color);text-align:right;}
+.boxes_product .box_content .box_title{position:relative;float:left;width:80%;color:var(--main-font-color2);padding-top:10px;font-size:1.4rem;line-height:1.2;font-family:"archiaregular";text-align:left;;}
+.boxes_product .box_content .box_title strong{font-family: var(--font-family);font-weight:900;font-size:16px;}
+.boxes_product .box_content .box_title em{background-color:#DFFD48;font-style:normal;}
+.boxes_product .box_content .box_title div:first-child{}
+
+
+.boxes_product .box_content .box_text{position:relative;float:left;width:100%;padding-bottom:5px;;padding-top:15px;padding-left:0px;padding-right:10px;overflow:hidden}
+.boxes_product .box_content .box_text *{position:relative;float:none;padding:0 0px;width:100%;font-size:1.4rem;font-weight:400;color:var(--main-font-color);text-align:left;line-height:1.5;}
+.boxes_product .box_content .box_text strong{font-weight:700;}
+.boxes_product .box_content .box_text br{word-break:break-all;}
+.boxes_product .box_content .box_text a{position:relative;float:left;width:100%;background-color:#56aaff !important;color:white;text-align:center;padding-top:5px;padding-bottom:5px;font-weight:900;}
+.boxes_product .box_content .box_text a:hover{}
+.boxes_product .box_content .box_link{position:relative;text-align:center;padding:0 0px;float:left;width:100%;margin-top:20px;margin-bottom:10px;}
+
+.boxes_product .box_content .box_link img{position:relative;float:none;margin:0 auto;;width:70%;}
+
+
+.boxes_product .box_content a{text-decoration:none;outline:none;}
+.boxes_product .box_content .add_to_favourite{transition:0.5s all ease-out;position:absolute;top:0;right:30px;height:20px;width:20px;border:0px solid red;text-align:center;z-index:2;background-image:url('../../../img/shop/favourite.svg');background-size:contain;background-position:center center;background-repeat:no-repeat;}
+.boxes_product .box_content .add_to_favourite.active{background-image:url('../../../img/shop/favourite_over.svg');}
+.boxes_product .box_content .add_to_favourite:hover{background-image:url('../../../img/shop/favourite_over.svg');}
+
+/*****WSZYSTKIE HOVERY*/
+.boxes_product .box_content .box_photo{position:relative;float:left;width:100%;z-index:1;}
+.boxes_product .box_photo img{position:relative;float:left;width:100%;object-fit:contain;object-position:left center;max-height:150px}
+.boxes_product .box_content:hover .box_photo{transition:0.8s all ease;}
+.boxes_product .box_content:hover .box_photo img{}
+
+

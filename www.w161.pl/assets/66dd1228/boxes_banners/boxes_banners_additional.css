@@ -1,0 +1,19 @@
+.boxes_banners_container .banner_arrow_back{position:relative;float:right;width:auto;z-index:10;border:0px solid red;padding-top:0px;top:20px;}
+.banner_arrow_back img{float:right;z-index:5;border:0px solid blue;margin-right:5px;}
+.banner_arrow_back img:hover{cursor:pointer;}
+.boxes_banners .box_banner{box-sizing:border-box;}
+.boxes_banners .box_banner div.content_opacity {position:absolute;left:0;bottom:-100%;background:rgba(249,0,82,0.8);bottom:0;width:35%;-webkit-animation: linear infinite alternate;padding:0px 20px;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 10s;}
+.boxes_banners .box_banner div.content_opacity .banner_title *{font-size:16px;color:white}
+@-webkit-keyframes run {
+    0% { bottom:-100%;left:0;}
+    25%{ bottom:-25%;left:0;}
+    40%{ bottom:0;left:0;width:35%}
+    41% { bottom:0%;left:0;width:35%}
+    60%{ bottom:0;left:0;width:60%}
+    100%{ bottom:0;left:0;width:100%;}
+        
+}
+
+

@@ -1,0 +1,68 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) { /*PORTRAIT PHONES */
+ .boxes_banners_container{padding-left:var(--padding-left);padding-right:var(--padding-right);padding-top:0px;}
+ .boxes_banners .box_banner .banner_content{flex-wrap:wrap;height:auto;}
+ .boxes_banners .box_banner div.content{height:auto;min-height:300px;padding-top:20px;padding-bottom:20px;}
+ .boxes_banners .box_banner .banner_content .banner_photo{flex-basis:100%;}
+ .boxes_banners .box_banner .banner_content .information{flex-basis:100%;}
+}
+@media only screen and (min-width : 481px) and (max-width : 950px) {
+   
+ .boxes_banners_container{padding-left:var(--padding-left);padding-right:var(--padding-right);;padding-top:0px;}
+ .boxes_banners .box_banner .banner_content{flex-wrap:wrap;height:350px;}
+ .boxes_banners .box_banner div.content{height:auto;min-height:350px;padding-top:20px;padding-bottom:20px;}
+ .boxes_banners .box_banner .banner_content .banner_photo{flex-basis:40%;}
+ .boxes_banners .box_banner .banner_content .information{flex-basis:60%;}    
+    
+}
+@media only screen and (min-width : 951px) and (max-width : 1224px) { /* IPAD PORTRAIT */
+   
+}
+
+@media only screen  and (min-width : 1224px),only screen  and (min-width : 1824px)  {
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */ 
+
+}
+
+/*********************************************/
+
+@media 
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+
+@media 
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+

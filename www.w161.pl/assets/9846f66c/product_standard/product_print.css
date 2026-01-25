@@ -1,0 +1,10 @@
+#article_item{padding-left:20px;padding-right:20px;}
+.content_arrow_back{display:none !important;}
+.music_gallery{display:none !important;}
+.flex_row .flow_content{flex-basis:100%;width:100%;margin:0;padding:0}
+section.fly_content{display:none !important}
+.gallery_next_gen_element{display:none !important;}
+.gallery_next_gen_element[data-slick-index='0']{position:relative;float:left;display:block !important;height:auto !important;}
+.gallery_next_gen_element[data-slick-index='0'] a{color:transparent !important;font-size:0;}
+.gallery_next_gen_element img{position:relative;float:left;width:auto;height:200px;}
+#connected_container{display:none !important}

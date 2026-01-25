@@ -1,0 +1,53 @@
+
+.contact_rodo{position:relative;float:left;width:100%;padding:10%;font-family:var(--font-family); background-color:var(--main-bg-color);
+}
+.contact_rodo.big_padding{padding-left:var(--padding-left-vw);padding-right:var(--padding-right-vw);padding-top:100px;padding-bottom:100px;min-height: 100vh;}
+.contact_rodo .title{position:relative;float:left;;width:100%;font-family:"archiabold";color:var(--main-font-color);font-size:3rem;text-transform:lowercase;}
+
+.contact_rodo .email_form{position:relative;float:none;margin:0 auto;width:100%;margin-bottom:20px;}
+.contact_rodo .email_form label{position:relative;font-size:1.2rem;border-radius:0;float:left;width:100%;background-color:var(--contact-bg-color);margin-bottom:0px;border:0;color:var(--foodie-brown);font-family:"archialight"}
+.contact_rodo .email_form input{position:relative;font-size:1.2rem;border-radius:0;float:left;width:100%;background-color:var(--contact-bg-color);padding:5px 0px;margin-bottom:20px;border:0; border-bottom:1px solid var(--foodie-brown);color:var(--foodie-brown);font-weight:100;}
+.contact_rodo .email_form input[placeholder]{color:var(--foodie-brown);opacity:1;font-weight:100;}
+::-webkit-input-placeholder,::-moz-placeholder  {opacity: 1 !important;}
+.contact_rodo .email_form select{position:relative;float:left;width:100%;margin-bottom:10px;}
+.contact_rodo .email_form textarea{position:relative;border-radius:0;float:left;width:100%;height:150px;background-color:var(--contact-bg-color);padding:5px 0px;border:0;border-bottom:1px solid var(--foodie-brown);color:var(--foodie-brown);font-weight:100;font-size:1.2rem;}
+.contact_rodo .email_form textarea[placeholder]{color:var(--foodie-brown);opacity:1;font-weight:100;}
+
+.contact_rodo .email_button{position:relative;float:right;margin-top:15px;;color:var(--foodie-brown);font-family:"archiasemibold";;font-size:1.5rem;padding:30px;padding-top:10px;padding-bottom:10px;line-height:1;letter-spacing:1px;transition:all 0.5s ease;}
+.contact_rodo .email_button:hover{transition:all 0.5s ease;cursor:pointer;background-color:var(--foodie-brown);color:white;;;padding:30px;padding-top:10px;padding-bottom:10px;}
+.contact_rodo:after{
+    content: '';
+position: absolute;
+top: var(--special_top);
+right: -29px;
+height:100px;
+width: 50px;
+background-image: url('../../../img/main/entrance/w161/triangle.svg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: bottom right;
+}
+.contact_rodo .required_fields{position:relative;float:left;width:100%;font-size:1.2rem;margin-top:10px;color:var(--foodie-brown);margin-bottom:10px;font-size:1.2rem;}
+.contact_rodo .required_text{position:relative;float:left;width:100%;font-size:1.2rem;color:var(--foodie-brown);margin-top:40px;font-family:"archialight"}
+.contact_rodo .more_text{position:relative;float:left;width:100%;font-weight:300;text-align:justify;margin-top:20px;color:black;border:0px solid red;}
+.contact_rodo .more_text:hover{cursor:pointer;}
+
+.contact_rodo .more_text .head{position:relative;float:left;width:100%;font-family:"archialight";font-size:1.2rem;}
+.contact_rodo .more_text .head img{margin-left:20px;height:7px;transform:rotate(0deg);transition:all 0.5s ease;}
+.contact_rodo .more_text .head img.rotate{transform:rotate(180deg);transition:all 0.5s ease;}
+.contact_rodo .more_text .slide_text{position:relative;float:left;width:100%;display:none;margin-top:30px;color:var(--foodie-brown);font-size:1.2rem;font-family:"archialight"}
+.contact_rodo .more_text .slide_text *{text-align:left !important;}
+
+.contact_rodo .checkbox{;position:relative;float:left;width:100%;margin-top:10px;}
+.contact_rodo .checkbox input[type="checkbox"]{position:relative;float:none;width:auto;margin:0;padding:0;;box-shadow:0;border:0;}
+.contact_rodo .checkbox .checkbox_text{position:relative;float:none;padding-left:10px;font-size:1.2rem;color:var(--foodie-brown);font-weight:500;}
+
+.contact_rodo .element_description{position:relative;float:left;border:0px solid red;font-size:1.2rem;line-height:1.4;}
+.contact_rodo .email_errors{position:relative;float:left;width:100%;color:#F00000;font-size:2rem;line-height:2;padding-bottom:10px;}
+.contact_rodo .email_success{position:relative;float:left;width:100%;color:green;font-size:2rem;line-height:2;padding-bottom:10px;}
+
+.contact_rodo .address_area{position:relative;float:left;width:100%}
+.contact_rodo .address_area div{font-size:1.4rem;font-weight:300;}
+
+
+

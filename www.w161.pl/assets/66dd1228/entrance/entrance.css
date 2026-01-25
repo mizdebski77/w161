@@ -1,0 +1,254 @@
+#animation_container{top:-20px;}
+html,body{background-color: var(--main-bg-color) !important;}
+.block_mobile{display:none;}
+.contact_container{position:relative;float:left;width:100%;padding-bottom:100px;background-color:var(--main-bg-color2);font-family:var(--font-family);margin-top:100px;}
+.contact_container .contact_content{position:relative;float:right;width:65%;padding-left: var(--padding-left);padding-right: 50px}
+.contact_container .contact_area{position:relative;float:left;width:35%;padding-left:10%;margin-top:10%}
+.contact_container .title_contact{position: relative;float:left;display:flex;width:100%;font-size:2rem;font-family:"archiamedium";margin-bottom:30px;}
+.contact_container .contact_area div:not(.title_contact){font-size:1.6rem;}
+.contact_container .contact_area:after{content:'';position:absolute;bottom:0;left:0;top:0;width:15%;background-image:url('../../../img/main/entrance/w161/triangle.svg');background-repeat:no-repeat;background-size:contain;background-position:bottom left;}
+
+.contact_container .address_area{position: relative;flex-basis:40%;;font-size:1.5rem;;color: var(--contact-font-color);font-weight:400;padding-left:30px;margin-top:35px;}
+.contact_container .address_area a{color:#969148}
+.contact_container .address_area a.polityka_prywatnosci{position:relative;float:left;border:1px solid #575757;padding:10px 20px;color:var(--main-contact-color);font-size:1.4rem;margin-top:50px;text-transform:lowercase;font-weight:700;text-decoration:none;transition:0.5s all ease-out}
+.contact_container .address_area a.polityka_prywatnosci:hover{background-color:#575757;transition:0.5s all ease-in}
+
+.contact_container .address_area strong{font-weight:700;}
+.contact_container .contact_area .photo{position:relative;float:left;width:100%;}
+.contact_container .contact_area .photo img{position:relative;float:left;width:100%;}
+
+.contact_container .contact_photo{position:relative;float:left;width:100%;}
+.contact_container .contact_photo img{position:relative;float:left;width:100%;}
+
+
+/* PAYU CONTAINER */
+.payu_container{position:relative;float:left;width:100%;padding-top:20px; align-items:center; justify-content: center;;font-family:var(--font-family);padding-bottom:20px;padding-left:var(--padding-left);padding-right:var(--padding-right);display:flex;background-color:var(--bip-bg-color);color:var(--contact-font-color);}
+.payu_container span{padding-left:0px;font-size:1.2rem;margin-top:3px;}
+
+.payu_container img{height:60px;margin-right:10px;}
+
+
+/* END OF PAYU CONTAINER */
+
+
+.boxes_faq_container{position:relative;float:left;width:100%;background-color:var(--foodie-brown);;font-family:var(--font-family);padding-top:80px;padding-bottom:150px}
+
+.boxes_faq_container .faq_category_title{position:relative;float:left;width:100%;margin-bottom: 20px;padding-bottom: 20px;text-align: center;font-size: 10rem;color:var(--foodie-grey);letter-spacing: 1px;font-weight: 800;}
+.boxes_faq_container .faq_filter_title{position:relative;float:left;text-transform:uppercase;width:100%;color:var(--foodie-grey);font-size:3rem;font-weight:800;margin-bottom:30px;margin-top:30px;padding-left:10%;}
+
+.boxes_faq_container .faq_content{position:relative;float:left;width:100%;padding-left:10%;}
+.boxes_faq_container .faq_element{position:relative;float:left;width:100%;margin-bottom:10px;}
+.boxes_faq_container .faq_element:hover .faq_title{color:var(--foodie-light-blue);;transition:0.5s all ease;}
+
+.boxes_faq_container .faq_element .faq_title{position:relative;float:left;padding-left:20px;transition:0.5s all ease;;width:100%;color:white;font-size:15px;font-weight:400;line-height:1.2;}
+.boxes_faq_container .faq_element .faq_title:hover{cursor:pointer;}
+
+.boxes_faq_container .faq_element .faq_title .plus{position: absolute;top: 2px;left: 0;height: 15px;width: 10px;background-image: url(../../../img/main/entrance/plus.svg);background-size: contain;background-repeat: no-repeat;background-position: center center;transform: rotate(0deg);transition: 1s all ease;}
+.faq_title .plus.rotate{transform: rotate(45deg) !important;transition: 1s all ease;}
+.boxes_faq_container .faq_element .faq_answer{position:relative;float:left;display:none;padding-left:20px;padding-top:15px;font-size:15px;width:100%;color:var(--foodie-light-blue);font-weight:700;;}
+
+/*FOODIE ART ELEMENTS*/
+
+.foodie_art{position:relative;;width:70%;margin:0 auto;font-family:var(--font-family);display:flex;align-content: center;flex-wrap:wrap;background-color:var(--foodie-background);}
+.foodie_art .art_text_top{position:relative;float:left;width:100%;font-size:7rem;color:var(--foodie-brown2);font-weight:700;text-align:center;padding-top:100px;}
+.foodie_art .art_text_bottom{position:relative;float:left;width:100%;font-size:7rem;line-height:1;color:var(--foodie-brown2);font-weight:700;text-align:center;padding-bottom:50px;padding-top:50px;}
+
+.foodie_art img{position:relative;float:none;height:250px;max-width:100%;margin:0 auto;padding-top:100px;object-fit:contain;}
+.foodie_art img.switch_padding{padding-top:0;padding-bottom:100px;}
+.foodie_text{position:relative;float:none;width:65%;margin:0 auto;text-align:center;font-family:var(--font-family);}
+.foodie_text .fd_1{font-size:4rem;font-weight:700;line-height:1.1;}
+.foodie_text .fd_2{font-size:2rem;padding-top:20px;}
+
+.mozaic_container{position:relative;float:left;width:100%;font-family:var(--font-family);overflow:hidden;}
+.mozaic_content{position:relative;float:left;width:100%;display:flex;flex-wrap:wrap;padding-bottom:100px;}
+.mozaic_content .mozaic_element{position:relative;flex:33.333%;display:flex;align-items:center;background-color:var(--foodie-brown);align-content:center;}
+.mozaic_content .mozaic_element.mozaic_gallery{position:relative;width:33.333%;display:block;align-items:center;background-color:var(--foodie-brown);align-content:center;}
+.mozaic_element.orange{position:relative;float:left;background-color:var(--foodie-orange);opacity:1;transition:1s all ease;}
+.mozaic_element.blue{background-color:var(--foodie-light-blue);}
+.mozaic_element.orange:hover .orange_text,.mozaic_element.blue:hover .blue_text{cursor:pointer;padding-top:50px;transition:1s all ease;}
+
+.mozaic_content .mozaic_element .text{position:relative;font-size:1.0rem;;padding:20px;border:0px solid white;align-self:center;width:100%;text-align:center;}
+.mozaic_content .mozaic_element .blue_text{position:relative;padding-top:50px;transition:0.5s all ease;font-size:4rem;line-height:1.1;width:100%;padding:20px;;align-self:center;text-align:center;color:var(--foodie-brown2);font-weight:900;}
+.mozaic_content .mozaic_element .orange_text{position:relative;padding-top:50px;transition:0.5s all ease;font-size:4rem;line-height:1.1;flex-basis:100%;padding:20px;;align-self:center;text-align:center;color:var(--foodie-brown2);font-weight:900;}
+
+.mozaic_content .mozaic_element .text p{margin:0;padding:0;color:var(--foodie-light-blue);font-size:2.4rem;}
+.mozaic_content .mozaic_element .text p span{font-size:3rem !important;line-height:1;font-weight:900;}
+.mozaic_content .mozaic_element img{position:relative;float:left;width:100%;}
+/*FOODIE ART ELEMENTS*/
+
+
+/*FOODIE ART START BANNER */
+
+section.entrance_banner .entrance_buttons{position:relative;float:left;width:100%;display:flex;background-color:var(--foodie-brown2);padding-top:45px;font-family:var(--font-family);}
+section.entrance_banner .entrance_buttons .entrance_button{background-color:var(--foodie-blue2);color:var(--foodie-brown);font-size:2rem;flex:30%;;padding-top:15px;padding-bottom:10px;;text-align:center;font-weight:700;letter-spacing:1px;opacity:1;transition:0.5s all ease;}
+section.entrance_banner .entrance_buttons .entrance_button a{color:inherit;text-decoration:none;position:relative;width:100%;float:left;}
+section.entrance_banner .entrance_buttons .entrance_button:first-child{background-color:var(--foodie-orange);}
+section.entrance_banner .entrance_buttons .entrance_button:last-child{background-color:var(--foodie-blue);}
+section.entrance_banner .entrance_buttons .entrance_button:hover{cursor:pointer;opacity:0.7;transition:0.5s all ease;}
+section.entrance_banner .slide_gallery{display:flex;width:100%;flex-wrap:wrap;}
+section.entrance_banner .slide_gallery img{position:relative;width:100%;}
+
+section.entrance_banner .entrance_banner_content{position:relative;float:left;width:100%;font-family:var(--font-family);display:flex;background-color:var(--foodie-brown);padding-left:var(--padding-left);padding-right:var(--padding-right);padding-bottom:100px;}
+.entrance_banner_content .content{flex-basis:70%;font-size:3rem;color:var(--foodie-brown2);background-image: linear-gradient(to right bottom, #ff522d ,#b1b1b1 ,#00afb2);margin:0 30px;padding:5%;}
+.entrance_banner_content .content .text{font-size:2rem;font-weight:400;}
+.entrance_banner_content .content .text strong{position:relative;float:left;width:100%;font-size:3rem;line-height:1.2;font-weight:700;padding-bottom:15px;}
+.entrance_banner_content .content .slide_arrow{}
+.entrance_banner_content .content .slide_arrow.slider_active{transform:rotate(90deg);}
+.entrance_banner_content .content .slide_arrow img{height:20px;}
+
+.entrance_banner_content .content .slide_text{flex-basis:100%;display:none;font-size:2rem;font-weight:400;margin-top:30px;}
+
+
+.entrance_banner_content .buttons{flex-basis:30%;font-size:2.5rem;margin:0 30px;font-weight:700;letter-spacing:2px;}
+.entrance_banner_content .buttons .button{background-color:var(--foodie-light-blue);color:var(--foodie-brown2);text-align:center;padding:15px 0;transition:0.5s all ease;}
+.entrance_banner_content .buttons .button:first-child{background-color:var(--foodie-orange);margin-bottom:5px;}
+.entrance_banner_content .buttons .button:last-child{background-color:var(--foodie-light-blue);margin-top:5px;}
+.entrance_banner_content .buttons .button:hover{cursor:pointer;opacity:0.7;transition:0.5s all ease;}
+
+/* FOODIE ART START BANNER */
+
+/* FOODIE DIET BOXES */
+
+.foodie_diets{position: relative;overflow:hidden;;margin: 0 auto;display: flex;flex-direction: row;;width:50%;justify-content: space-between;margin-top:80px;font-family:var(--font-family);background-color:var(--foodie-background);padding-bottom:30px;}
+
+.foodie_diets .foodie_diet{position:relative;flex:0 0 48%;;background-color:var(--foodie-orange2);}
+.foodie_diet .d_image{position:relative;float:left;width:100%;overflow:hidden}
+.foodie_diet .d_image img{position:relative;float:left;width:100%;height:300px;object-fit:cover;transform: scale(1);transition:0.5s all ease;}
+.foodie_diet .d_content{position:relative;float:left;width:100%;display:flex;flex-wrap:wrap;background-color:var(--foodie-orange2);color:var(--foodie-brown2);padding-bottom:70px;}
+.foodie_diet .d_content .d_title{position:relative;float:left;width:100%;padding:20px 30px;font-size:2.6rem;font-weight:700}
+.foodie_diet .d_content .d_text{position:relative;float:left;width:100%;padding:0px 30px;font-size:1.6rem;}
+.foodie_diet .d_content .d_text strong{font-weight:700;}
+.foodie_diet .d_options{position:absolute;bottom:0;left:0;width:100%;display:flex;font-size:1.6rem;}
+.foodie_diet .d_options .d_price{font-weight:400;text-align:center;background-color:var(--foodie-background);flex-basis:50%;padding-bottom:10px;padding-top:10px;}
+.foodie_diet .d_options .d_order{font-weight:700;font-size:700;flex-basis:50%;text-align:center;background-color:var(--foodie-orange);;padding-bottom:10px;padding-top:10px;letter-spacing:1px;}
+.foodie_diet .d_options .d_order:hover{cursor:pointer;}
+.foodie_diet:hover .d_image img{cursor:pointer;transform: scale(1.1);transition:0.5s all ease;}
+
+
+/* FOODIE HARMONOGRAM */
+
+.harmonogram_container{position:relative;float:left;width:100%;display:flex;;justify-content: space-between;background-color:var(--foodie-background)}
+.harmonogram_left{flex-basis:22%;}
+.harmonogram_right{flex-basis:22%;}
+.harmonogram_left img,.harmonogram_right img{position:relative;float:left;width:100%;}
+.harmonogram_left img{margin-top:-150px}
+.harmonogram_right img{margin-top:150px}
+
+.harmonogram{flex-basis:45%;position:relative;float:left;font-family:var(--font-family);padding-bottom:150px}
+.harmonogram_photo{position:relative;float:left;width:100%;}
+.harmonogram_photo img{position:relative;float:left;width:100%;}
+.harmonogram_photo .goto_order{position:absolute;top:43%;left:53.5%;text-align:center;letter-spacing:2px;z-index:2;width:24.5%;padding:10px 0px;;background-color:var(--foodie-orange);color:var(--foodie-brown2);font-size:1.6rem;font-weight:900;transition:0.5s all ease;}
+.harmonogram_photo .goto_order:hover{cursor:pointer;opacity:0.7;transition:0.5s all ease;}
+
+
+.harmonogram_diet_title,.harmonogram_week{position:relative;float:left;width:100%;background:var(--foodie-gradient-grey);font-size:3rem;color:var(--foodie-harmonogram-white);padding-top:15px;padding-bottom:15px;font-weight:900;padding-left:50px;}
+.harmonogram_diet_title .diet_program{color:var(--foodie-grey2);margin-right:15px;transition:0.5s all ease;}
+.harmonogram_diet_title .diet_program:hover{color:white;cursor:pointer;transition:0.5s all ease;}
+.harmonogram_diet_title .diet_program.clicked{color:white;}
+.description_diet,.dayweek_slide,.delivery_cost_diet{position:relative;float:left;width:100%;text-transform:uppercase;background:var(--foodie-gradient-orange);font-size:2.4rem;color:var(--foodie-brown);padding-top:10px;padding-bottom:10px;font-weight:700;padding-left:50px;}
+.delivery_cost_diet{border-top:1px solid var(--foodie-brown2);}
+.description_diet_slide,.delivery_cost_diet_slide{position:relative;float:left;width:100%;;font-size:1.6rem;color:var(--foodie-brown);padding-top:15px;padding-bottom:15px;font-weight:400;padding-left:50px;display:none;padding-right:30px;background-color:white;}
+.dayweek_slide{border-bottom:1px solid var(--foodie-brown2);}
+.description_diet:after,.delivery_cost_diet:after,.dayweek_slide:after{content:'';position:absolute;top:50%;;left:10px;background-image:url('../../../img/main/entrance/foodie_harmonogram/strzalka_accordion.svg');background-size:contain;background-position:center center;background-repeat:no-repeat;width:20px;height:20px;transform:translateY(-50%) rotate(00deg);transform-origin: center;;z-index:1;transition:0.5s all ease;}
+.description_diet.clicked:after,.delivery_cost_diet.clicked:after,.dayweek_slide.clicked:after{transform:translateY(-50%) rotate(180deg);transition:0.5s all ease;}
+.description_diet:hover,.delivery_cost_diet:hover,.dayweek_slide:hover{cursor:pointer;}
+
+.delivery_cost_diet_slide .cost{color:var(--foodie-brown2);font-size:1.6rem;width:100%;}
+.delivery_cost_diet_slide .cost span{color:var(--foodie-orange);font-weight:700;}
+
+
+
+.dayweek_content{position:relative;float:left;width:100%;display:none;}
+.dish_container{position:relative;float:left;width:100%;border-bottom:1px solid var(--foodie-brown);}
+.dish_title{position:relative;float:left;width:100%;text-transform:uppercase;background-color:white;font-size:1.6rem;color:var(--foodie-brown);padding-left:50px;padding-top:10px;padding-bottom:10px;}
+.dish_title:hover{cursor:pointer;}
+.dish_title:after{content:'';position:absolute;top:50%;;left:10px;background-image:url('../../../img/main/entrance/foodie_harmonogram/ikona_i.svg');background-size:contain;background-position:center center;background-repeat:no-repeat;width:15px;height:15px;transform:translateY(-50%) rotate(0deg);transform-origin: center;;z-index:1;transition:0.5s all ease;}
+.dish_title span{padding-right:10px;font-weight:900;}
+.dish_content_slide{position:relative;float:left;width:100%;background-color:white;padding-left:50px;padding-bottom:30px;;padding-top:20px;display:none;}
+.dish_content_slide:after{content:'';position:absolute;top:50px;;right:10px;background-image:url('../../../img/main/entrance/foodie_harmonogram/ikona_x.svg');background-size:contain;background-position:center center;background-repeat:no-repeat;width:15px;height:15px;transform:translateY(-50%) rotate(0deg);transform-origin: center;;z-index:1;transition:0.5s all ease;}
+.dish_content_slide strong{font-weight:900 !important}
+
+
+.order_container{position:relative;float:left;width:100%;}
+/* FOODIE HARMONOGRAM */
+
+
+
+
+/* W161 ELEMENTS */
+
+.entrance_hexes_container{position:relative;float:left;width:100%;background-color:#e3e4e5;padding-top:30px;padding-bottom:50px;}
+.entrance_hexes_container .first_photos{position:relative;float:left;width:100%;}
+.entrance_hexes_container .first_photos .one{position:relative;float:left;width:72%;}
+.entrance_hexes_container .first_photos .two{position:absolute;top:40%;transform:translateY(-50%);right:5%;width:20%;}
+.entrance_hexes_container .first_photos .shortcut_choose_mieszkanie{position:absolute;color:red;top:58%;transform:translateY(-50%);right:0%;width:calc(25% + 15px);background-color:#FF522D;padding-left:35px;padding-top:10px;padding-bottom:10px;color: black;font-family: "archiasemibold";font-size: 1.6rem;line-height:1;}
+.entrance_hexes_container .first_photos .shortcut_choose_mieszkanie:after{content:'';position:absolute;top:0;left:0;width: 0;
+height: 0;
+border-style: solid;
+border-width: calc(1.6rem + 20px) calc(0.8rem + 20px) 0 0;
+border-color: var(--main-menu-bg-color) transparent transparent transparent;}
+.entrance_hexes_container .first_photos .shortcut_choose_mieszkanie a{color:inherit;text-decoration:none;}
+.entrance_hexes_container .first_photos .shortcut_choose_mieszkanie a:hover{color:inherit;text-decoration:none;}
+.entrance_hexes_container .first_photos_rwd{position:relative;float:left;width:100%;display:flex;flex-direction:column;}
+.entrance_hexes_container .first_photos_rwd .one{position:relative;float:left;width:100%;order:2;}
+.entrance_hexes_container .first_photos_rwd .two{position:relative;float:none;margin:0 auto;overflow:auto;;width:50%;order:1;margin-bottom:30px;}
+
+.entrance_hexes_container .second_photos{position:relative;float:left;width:100%;}
+.entrance_hexes_container .second_photos img{display:flex;width:100%;}
+
+
+.entrance_w161static_container{position:relative;float:left;width:100%;background-color:#e3e4e5;padding-top:0px;}
+.entrance_w161static_container .fullphoto{position:relative;float:left;width:100%;}
+.entrance_w161static_container .logo{position:absolute;top:50%;transform:translateY(-75%);right:5%;width:20%;}
+.entrance_w161static_container .fullphoto_rwd{position:relative;float:left;width:100%;}
+.entrance_w161static_container .logo_rwd{position:absolute;top:50%;transform:translateY(-75%);right:5%;width:20%;}
+
+
+
+
+
+.w161_start_info_container{position:relative;float:left;width:100%;display:flex;flex-direction: row; font-family:var(--font-family);}
+.w161_start_info_container .w161_photography{position:relative;width:30%;}
+.w161_start_info_container .w161_photography img{position:relative;float:left;width:100%;height:100%;object-fit:cover;}
+.w161_start_info_container .w161_text{position:relative;width:40%;background-color:#c63c28;color:#e3e4e5;padding:5%;font-size:1.7rem;}
+.w161_start_info_container .w161_text .title{margin-bottom:40px;}
+.w161_start_info_container .w161_text .title img{width:30%;}
+.w161_start_info_container .w161_text .text{}
+
+
+.bottom_choose_mieszkania{position:fixed;z-index:41;bottom:0;left:0;right:0;width:100%;padding-top:10px;padding-bottom:10px;background-color:#FF522D;color:black;font-family:"archiasemibold";font-size:1.6rem;}
+.bottom_choose_mieszkania .arrow_back img{position:relative;float:left;width:30px;margin-left:10px;}
+.bottom_choose_mieszkania .b_mieszkanie{position:relative;float:left;margin-left:30px;}
+.bottom_choose_mieszkania .b_mieszkanie a{color:inherit;}
+.bottom_choose_mieszkania .b_contact a{color:inherit;}
+
+.bottom_choose_mieszkania .b_pietro{position:relative;float:left;margin-left:30px;font-family:"archiaregular"}
+.bottom_choose_mieszkania .b_pietro .s_pietro{position:relative;;padding-left:10px;padding-right:5px;font-family:"archiabold"}
+.bottom_choose_mieszkania .b_pietro .s_pietro a{color:inherit;}
+ 
+.bottom_choose_mieszkania .b_pietro .s_pietro:hover{cursor:pointer;}
+.bottom_choose_mieszkania .b_pietro .s_pietro::after {content: '';position: absolute;top: 0;left: 0;bottom: 0;width: 1px;background-color: var(--main-font-color3);transform: rotate(30deg);}
+.bottom_choose_mieszkania .b_pietro .s_pietro:first-child::after{display:none;}
+.bottom_choose_mieszkania .b_pietro .s_pietro:first-child{margin-left:30px;}
+.bottom_choose_mieszkania .b_contact{position:relative;float:right;margin-right:30px;}
+
+
+.w161_hexes_icon_container{position:relative;float:left;width:100%;display:flex;display: flex;flex-direction: row;justify-content: center;padding-top:60px;padding-bottom:100px;}
+.w161_hexes_icon_container span{width:30%;display:flex;justify-content: center;padding-left:30px;padding-right:30px;}
+.w161_hexes_icon_container span img{position:relative;float:left;width:100%;margin-bottom:15px;}
+
+.w161_hexes_icon_container span div{text-align:center;font-family: "archiabold";color: var(--main-font-color);font-size: 2rem;text-transform: lowercase;padding-top:20px;}
+.w161_hexes_icon_container span a:hover{text-decoration:none;}
+
+
+
+
+.w161_article_hexes_icon_container{position:relative;float:left;width:100%;display:flex;display: flex;flex-direction: column;padding-top:30px;margin-top:30px;}
+.w161_article_hexes_icon_container::after{content:'';position:absolute;left:20px;top:0;right:15px;height:1px;background-color:var(--main-font-color) !important;}
+.w161_article_hexes_icon_container span{width:100%;display:flex;flex-direction:column;border:0px solid red;padding-left:15px;margin-bottom:20px;}
+
+.w161_article_hexes_icon_container span a{width:100%;display:flex;flex-direction:row;align-items: center;border:0px solid blue;}
+.w161_article_hexes_icon_container span img{position:relative;float:left;width:25%;}
+.w161_article_hexes_icon_container span div{position:relative;float:left;padding-left:20px;align-items:center;font-family: "archiabold";color: var(--main-font-color);font-size: 2rem;text-transform: lowercase;width:55%;}
+.w161_article_hexes_icon_container span a:hover{text-decoration:none;}
+/* W161 ELEMENTS */ 

@@ -1,0 +1,114 @@
+
+/******************/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-10-11, 20:34:00
+    Author     : solenzo
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+ .boxes_periods_container .boxes_periods_title{font-size:18px;padding-left:10px;}
+ .boxes_periods_container{padding-top:70px;padding-bottom:0px;}
+ .boxes_periods .box_placing{padding-left:15px;padding-right:15px;width:100%;}
+ .boxes_periods{padding-right:0px;}
+ .period_prev{right:10px;}
+ .period_next{right:10px;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+.filters .filter_department .subfilters{padding-left:10px;}
+.boxes_news_container .news_accordion .logo {margin-left:20px;}
+.boxes_news_container .news_accordion .logo img{height:32px;}
+.boxes_news_container .news_accordion .text{padding-top:10px;}
+    .boxes_periods .mask .mask_text{font-size:14px;}
+    .boxes_periods .mask .mask_category{font-size:14px;}
+.boxes_periods_container.atrakcje_container .subtitle span{margin:0 20px;}    
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+#boxes_fragment{padding-left:15px !important;padding-right:15px !important;}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+#boxes_fragment{padding-left:0 !important;padding-right:0 !important;}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+
+
+}
+
+@media only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 4){
+    .boxes_periods{margin-left:15px;margin-right:15px;width:calc(100% - 30px);}
+    .boxes_periods .box_placing{width:50%;padding-left:0;padding-right:0;}
+}
+@media only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 4){
+ 
+
+}
+@media only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.5){
+    .boxes_periods{margin-left:15px;margin-right:15px;width:calc(100% - 30px);}
+    .boxes_periods .box_placing{width:50%;padding-left:0;padding-right:0;}
+}
+@media only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.5){
+
+}
+@media only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3){
+    .boxes_periods{margin-left:15px;margin-right:15px;width:calc(100% - 30px);}
+    .boxes_periods .box_placing{width:50%;padding-left:0;padding-right:0;}
+}
+@media only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3){
+
+}
+
+@media only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2){
+    .boxes_periods{margin-left:15px;margin-right:15px;width:calc(100% - 30px)}
+    .boxes_periods .box_placing{width:50%;padding-left:0;padding-right:0;}
+}
+@media only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2){
+
+}
+
+

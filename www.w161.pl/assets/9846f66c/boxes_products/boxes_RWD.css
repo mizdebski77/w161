@@ -1,0 +1,159 @@
+
+@media only screen and (min-width : 320px) and (max-width : 480px) { /*PORTRAIT PHONES */
+.box_content .slines{right:20px;}
+.box_content .slines1{right:80px}
+.boxes_product .box_photo img{max-height:180px}
+.boxes_product .box_content{padding-right:30px;}   
+.title.category_title{width:100% !important;}
+.boxes_product{padding-top:20px;padding-bottom:20px;}    
+.boxes_product_container{padding-top:70px;padding-left:var(--portrait-padding-left);padding-right:var(--portrait-padding-right);box-sizing:border-box;}
+.boxes_product_container2{padding-top:70px;padding-left:var(--portrait-padding-left);padding-right:var(--portrait-padding-right)}
+
+.boxes_product_container .boxes_product_title{font-size:20px;padding-left:15px;}
+#filters_list_preview{padding-left:10px;}
+
+.button_search{width:95%}
+
+.museum_prev{top:-20px;right:50px;border:0px solid red;background-position:top left;}
+.museum_next{top:-20px;right:10px;border:0px solid red}
+
+.title_img img{width:50%;}
+.boxes_product_container .title{font-size:3rem;}    
+    
+    
+    
+.filters_container section.filter_description h2.filter_title{font-size:3rem;}    
+.filters_container section.filter_description .filter_content .photo_category{position:relative;float:left;width:100%;right:auto;height:200px;top:auto;left:auto;bottom:auto;margin-top:20px;margin-bottom:20px;}    
+.filters_container section.filter_description .filter_content .photo_category.active{position:relative;float:left;width:100%;height:auto;top:auto;left:auto;right:auto;bottom:auto;margin-top:20px;margin-bottom:20px;height:200px;object-fit:cover;}    
+.filters_container section.filter_description .filter_content{width:100%;float:left;}    
+.filters_container section.filter_description h2.filter_title{margin-bottom:30px}    
+.filters_container{flex-direction:column;border:0px solid red;}
+.filters_container section.filter_description{flex-basis:100%;;padding-left:0}    
+.filters_container section.filter_manager{flex-basis:100%;padding-left:0}   
+.filters_container section.filter_description h3.text_start{width:100%;max-height:9999px;height:auto}
+.filters_container section.filter_description h3.text_slide{padding-right:0;}
+.filters_container section.filter_description h3.text_slide *{text-align:left !important;}
+.filters_container section.filter_description h3.text_start *{text-align:left !important;}
+.boxes_product .box_placing{padding-left:0px;padding-bottom:20px;}
+#filter_back{display:none}
+.filters_container section.filter_description .slide_button {margin-left:0}
+.filters_container section.filter_manager .filters{padding-left:50px;}
+.filters_container section.filter_manager input{margin-left:50px;}
+.boxes_product_container2{padding-top:0px;}
+.boxes_product_container{padding-top:50px;}
+
+.boxes_product_container2 .title{padding-left:0px;font-size:3rem;margin-left:0px;width:70%;}
+
+
+.kalendarium_filters{flex-direction:column;margin-bottom:20px;}
+.simple_filters_list{flex-direction:column;margin-bottom:20px;margin-left:30px;}
+.calendar_small_days{width:100%;padding-left:0;}
+.calendar_small_days section{;width:100%;float:left;border:0px solid red;margin-top:20px;}
+.calendar_small_days section.actual{;width:100%;display:block;float:left;border:0px solid red;}
+.calendar_small_days section span{position:relative;float:left;text-align:center;width:24px;border:0px solid red;padding:0;}
+.slide_button.slide_button_off span.dots{display:none}
+    
+}
+@media only screen and (min-width : 481px) and (max-width : 950px) {
+  
+.filters_container section.filter_description h2.filter_title{font-size:3rem;}    
+.boxes_product .box_placing{width:33.333%;padding-left:0px;}
+.boxes_product .box_placing.normalny{width:50%;padding-left:0px;}
+.boxes_product .box_placing.wiekszy{width:66.666%;padding-left:0px;}
+.boxes_product .box_photo img{max-height:150px;}
+.boxes_product_container{padding-top:50px}
+.boxes_product_container2{padding-top:30px}
+#filters_list_preview{margin-top:10px;margin-bottom:10px;}
+
+.boxes_product_container2 .title{padding-left:0px;font-size:3rem;margin-left:0px;width:85%;}
+
+
+.filters_container section.filter_description{padding-left:var(--portrait-article-padding-left);flex-basis:60%}
+.filters_container section.filter_manager{flex-basis:40%}
+.calendar_small_days{width:100%;padding-left:0;}
+.calendar_small_days section{;width:100%;float:left;border:0px solid red;margin-top:20px;}
+.calendar_small_days section.actual{;width:100%;display:block;float:left;border:0px solid red;}
+.calendar_small_days section span{position:relative;float:left;text-align:center;width:24px;border:0px solid red;padding:0;}    
+
+
+.simple_filters_list .simple_filter {padding-top:10px;padding-bottom:10px;align-items:center;}
+.simple_filters_list  {align-items:center;}
+    
+}
+@media only screen and (min-width : 951px) and (max-width : 1224px) { /* IPAD PORTRAIT */
+   
+.calendar_small_days{width:100%;padding-left:0;}
+
+.boxes_product .box_placing.normalny{width:25%;padding-left:0px;}
+.boxes_product .box_placing.wiekszy{width:50%;padding-left:0px;}
+.boxes_product_container2 .title {width:100%}
+.filters_container section.filter_description .filter_content .photo_category.active{position:relative;float:left;width:100%;height:auto;top:auto;left:auto;right:auto;bottom:auto;margin-top:20px;margin-bottom:20px;height:350px;object-fit:cover;}    
+
+}
+
+@media only screen  and (min-width : 1224px),only screen  and (min-width : 1824px)  {
+.filters_container section.filter_description .photo_category.active{height:200px}
+.filters_container section.filter_description{flex-basis:65%;;padding-left:var(--article-padding-left)}    
+.filters_container section.filter_manager{padding-left:50px;flex-basis:35%;padding-top:20px;}
+
+.boxes_product_container2{padding-top:30px;padding-bottom:50px;}
+.boxes_product_container{padding-top:60px;}
+.boxes_product .box_placing{width:25%;padding-left:0px;}
+.boxes_product .box_placing.normalny{width:25%;padding-left:0px;}
+.boxes_product .box_placing.wiekszy{width:50%;padding-left:0px;}
+
+.boxes_product_container2 .title{width:100%;font-size:4rem;}    
+    
+}
+
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */ 
+.boxes_product .box_placing.normalny{width:50%;padding-left:0px;}
+.boxes_product .box_photo img{max-height:200px !important}
+
+
+}
+
+/*********************************************/
+
+@media 
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : landscape) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+
+@media 
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 4),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.75),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3.5),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 3),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.7),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2.625),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 2),
+only screen and (orientation : portrait) and (-webkit-device-pixel-ratio : 1.5)
+{
+
+   
+
+}
+
+

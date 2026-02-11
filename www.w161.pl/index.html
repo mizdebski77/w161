@@ -263,9 +263,18 @@
     <div class="second_photos">
         <div class="image_animation" style="position:relative;float:left;width:100%;z-index:1;top:-1px !important">
             <div id="animation_container" style="width:100% !important;text-align:center;">
-                <canvas id="canvas" style="position:relative;width:100% !important;display: block;margin:0 auto;"></canvas>
-                    <div id="dom_overlay_container" style="pointer-events:none; width:100% !important;overflow:hidden; display: block;height:auto;">            
-                </div>
+                <video
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+                style="width:100%; height:auto; display:block; margin:0 auto;"
+              >
+                <source src="./assets/video/video.mp4" type="video/mp4">
+                <source src="./assets/video/video.mp4" type="video/mov">
+              </video>
+                              </div>
             </div>
         </div>        
         

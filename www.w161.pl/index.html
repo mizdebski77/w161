@@ -269,7 +269,8 @@
                 loop
                 playsinline
                 preload="auto"
-                style="width:100%; height:auto; display:block; margin:0 auto;"
+                style="width:100%; height:auto; display:block; margin:0 auto; filter: brightness(100%) contrast(106%) saturate(100%);
+    opacity: 0.96;"
               >
                 <source src="./assets/video/video.mp4" type="video/mp4">
                 <source src="./assets/video/video.mp4" type="video/mov">
@@ -1603,7 +1604,7 @@
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
 (function(){
-  emailjs.init('3kANYjf2IyAxhRJF6');
+  emailjs.init('eLNVDwz7JHc5OJXPc');
 })();
 
 const form = document.getElementById('contactForm');
@@ -1645,8 +1646,8 @@ form.addEventListener('submit', function(e) {
 
   // WYSYŁKA
   emailjs.send(
-    'service_bh8gddq',
-    'template_1kx6ibr',
+    'service_zss2fge',
+    'template_7ru9b99',
     {
       fullname: fullname,
       email: email,
